@@ -27,6 +27,7 @@ require "dependabot/updater/operations/update_all_versions"
 module Dependabot
   class Updater
     module Operations
+      extend T::Sig
       # We check if each operation ::applies_to? a given job, returning the first
       # that does, so these Operations should be ordered so that those with most
       # specific preconditions go before those with more permissive checks.
