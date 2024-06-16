@@ -2,7 +2,7 @@ pip==24.0
 pip-tools==7.4.1
 flake8==6.1.0
 hashin==1.0.1
-pipenv==2024.0.0
+pipenv==2024.0.1
 pipfile==0.0.2
 poetry==1.8.3
 
